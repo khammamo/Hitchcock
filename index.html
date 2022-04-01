@@ -55,7 +55,9 @@ Surnommé « le Maître du suspense », il est considéré comme l'un des réali
             </p>
             <img src="./Ressources/les_oiseaux.jpg" alt=""height="60" width="auto">
        <h2 id="Notre film coup de coeur">Notre film coup de coeur</h2>
-            <iframe src="./Ressources/39_marches.mp4" frameborder="0"></iframe>
+            <video controls>
+                <source src="./Ressources/39_marches.mp4" >
+            </video>
        <h2 id="Les fiches techniques">Les fiches techniques</h2>
        <table>
             <tr>
@@ -119,17 +121,21 @@ Surnommé « le Maître du suspense », il est considéré comme l'un des réali
 
                     <select name="film" id="film-select">
                         <option value="">--Please choose an option--</option>
-                        <option value="dog">Dog</option>
-                        <option value="cat">Cat</option>
-                        <option value="hamster">Hamster</option>
-                        <option value="parrot">Parrot</option>
-                        <option value="spider">Spider</option>
-                        <option value="goldfish">Goldfish</option>
+                        <option value="L'Homme qui en savait trop">L'Homme qui en savait trop</option>
+                        <option value="La Corde">La Corde</option>
+                        <option value="Rebecca">Rebecca</option>
+                        <option value="Cinquième Colonne">Cinquième Colonne</option>
+                        <option value="La Maison du docteur Edwardes">La Maison du docteur Edwardes</option>
+                        <option value="Les Enchaînés">Les Enchaînés</option>
+                        <option value="Le crime était presque parfait">Le crime était presque parfait</option>
+                        <option value="La Main au collet">La Main au collet</option>
+                        <option value="Mais qui a tué Harry ?">Mais qui a tué Harry ?</option>
                     </select>
                 <div>
                     <label for="msg">Message :</label>
                     <textarea id="msg" name="user_message"></textarea>
                 </div>
+                <input type="submit" value="Envoyer le formulaire">
             </form>
     
    </main> 
